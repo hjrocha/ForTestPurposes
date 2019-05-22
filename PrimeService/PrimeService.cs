@@ -16,6 +16,11 @@ namespace Prime.Services {
         {
             return candidate % 2 == 0;
         }
+
+        public bool IsOdd(int candidate)
+        {
+            return candidate % 2 == 1;
+        }
     }
 
 }

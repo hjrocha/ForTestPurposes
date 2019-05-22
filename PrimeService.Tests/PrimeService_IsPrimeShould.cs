@@ -23,9 +23,16 @@ namespace Prime.UnitTests.Services
         }
 
         [Fact]
-        public void Tests(){
+        public void Test01(){
             int n = _otherService.AddANumberToSeven(5);
             Assert.Equal(n,5+7);
+        }
+
+
+         [Fact]
+        public void Test02(){
+            string test = _otherService.GenerateString(10);
+            Assert.Equal(test.Length,10);
         }
     }
 }

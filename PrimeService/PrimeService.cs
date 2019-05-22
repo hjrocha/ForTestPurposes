@@ -11,6 +11,11 @@ namespace Prime.Services {
             }
             throw new NotImplementedException("Please create a test first");
         }
+
+        public bool IsEven(int candidate)
+        {
+            return candidate % 2 == 0;
+        }
     }
 
 }

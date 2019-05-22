@@ -8,7 +8,7 @@ namespace Prime.Services {
         }
 
         public string GenerateString(int length){
-            return "";
+            return new string('x',length);
         }
     }
 }
